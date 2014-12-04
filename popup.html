@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Generate QR code</title>
+    <style type="text/css">
+        .container{
+            padding:10px;
+            font-size:14px;
+        }
+        .qr{
+            width:200px;
+            height:200px;
+            background-color:#EFEFEF;
+            margin:10px 0;
+        }
+        .title{
+            font-size:14px;
+            width:200px;
+            overflow:hidden;
+            white-space:pre-wrap;
+            word-break:break-all;
+        }
+        .b{
+            font-weight:bold;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div id="page_title" class="title b">Page Title</div>
+    <div id="qr" class="qr"></div>
+    <div id="page_url" class="title">Page URL</div>
+</div>
+</body>
+<script type="text/javascript" src="script/jquery.min.js"></script>
+<script type="text/javascript" src="script/qrcode.js"></script>
+<script type="text/javascript" src="script/popup.js"></script>
+
+</html>
